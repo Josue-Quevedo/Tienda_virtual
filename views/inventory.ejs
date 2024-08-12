@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario y Promociones</title>
+</head>
+<body>
+    <h1>Inventario de Productos</h1>
+
+    <h2>Tacos</h2>
+    <p>Cantidad en inventario: <%= tacosCount %></p>
+    <p>Promoción: 10 tacos por <%= tacosPromoPrice %> pesos</p>
+
+    <h2>Tortas</h2>
+    <p>Cantidad en inventario: <%= tortasCount %></p>
+    <p>Promoción: 2 tortas por <%= tortasPromoPrice %> pesos</p>
+
+    <h2>Resumen del Inventario</h2>
+    <p>Total de productos en inventario: <%= tacosCount + tortasCount %></p>
+</body>
+</html>
